@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/categoria-articulos",
+      "handler": "categoria-articulo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/categoria-articulos/count",
+      "handler": "categoria-articulo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/categoria-articulos/:id",
+      "handler": "categoria-articulo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/categoria-articulos",
+      "handler": "categoria-articulo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/categoria-articulos/:id",
+      "handler": "categoria-articulo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/categoria-articulos/:id",
+      "handler": "categoria-articulo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

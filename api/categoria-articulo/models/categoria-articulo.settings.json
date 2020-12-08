@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categoria_articulos",
+  "info": {
+    "name": "categoriaArticulo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    }
+  }
+}
